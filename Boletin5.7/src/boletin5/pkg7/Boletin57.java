@@ -10,7 +10,7 @@ public class Boletin57 {
         Scanner reader = new Scanner(System.in);
         
         System.out.print("Introduce la figura: ");  
-        Figura figura1 = new Figura(reader.next());
+        Figura figura1 = new Figura(reader.nextInt());
         
         System.out.print(figura1.knowFigura());
     }
